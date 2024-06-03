@@ -17,7 +17,7 @@ connectDB()
     console.log("MONGODB connection failed !!", err)
 })
 
-
+//T His is another way to connect database
 
 // import express from "express";
 // const app = express()
@@ -31,7 +31,7 @@ connectDB()
 //         })
 
 //         app.listen(process.env.PORT, () => {
-//             console.log(`app is listenin on port ${process.env.PORT}`)
+//             console.log(`app is listening on port ${process.env.PORT}`)
 //         })
 //     } catch (error) {
 //         console.log("ERROR:", error)
